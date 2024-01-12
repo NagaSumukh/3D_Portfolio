@@ -16,7 +16,6 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
     shopify,
     carrent,
@@ -42,7 +41,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "C# Developer",
       icon: web,
     },
     {
@@ -50,11 +49,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Java Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Python Developer",
       icon: creator,
     },
   ];
@@ -116,57 +115,56 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "C# Developer",
+      company_name: "Juego Studios",
+      icon: meta,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2020 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the development and deployment of a diverse range of iOS and Android games using Unity Engine with C#, including engaging arcade, MMO, and Role-playing titles.",
+        "Collaborating with cross-functional teams including designers, product managers, testers and other developers to create high-quality products.",
+        "Demonstrated expertise in configuring variety of SDKs, encompassing Google API’s, Firebase, Facebook API’s, Google Ads, and Unity In-App Purchases.",
+        "Engineered and executed innovative editor scripts to seamlessly integrate SDKs, resulting in a substantial 30% reduction in project delivery time and heightened team productivity.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Intern Game Developer",
+      company_name: "In-Orbit Systems",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conceptualized and implemented a dynamic and contextual HUD system for an Unreal game, delivering a captivating game-play experience to players.",
+        "Elevated the game’s immersive ambiance through implementation of HUD transitions harmonizing with the art style and game-play aesthetics.",
+        "Collaborated with a team of artists to import high-quality assets and particle effects, ensuring a polished final product.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,58 +196,58 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Campus Feedback System ",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Designed and implemented a university campus feedback system, enhanced with Docker for efficient deployment, resulting in a 70% increase in scalability and a 40% reduction in deployment time; automated processes using Jenkins, GitHub, and Docker Hub, and orchestrated clustered deployment on AWS with Rancher for optimized container control.",
       tags: [
         {
-          name: "react",
+          name: "Docker",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Rancher",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Jenkins",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/NagaSumukh/Campus-Feedback-System",
     },
     {
-      name: "Job IT",
+      name: "Dynamic Recruitment Platform",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Designed and implemented a web-based recruitment platform with CRUD operations, streamlining the hiring process. This project includes modules for job applications, interviews, job postings, and user management. The platform features a user-friendly login, registration, and personalized dashboards for efficient job application and posting management. Data visualization tools, such as company-wise job posting charts, aid recruiters in making informed decisions. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Node.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Express.js",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/NagaSumukh/JobPortal",
     },
     {
-      name: "Trip Guide",
+      name: "Personal Portfolio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Explore my journey and skills through my personal portfolio website. This project serves as a reflection of my passion for web development and showcases a collection of my diverse skills. From the seamless user interface to the underlying code, I have meticulously crafted this space to represent my abilities in creating engaging and responsive web experiences.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Three.js",
           color: "green-text-gradient",
         },
         {
@@ -258,7 +256,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/NagaSumukh/3D_Portfolio",
     },
   ];
   

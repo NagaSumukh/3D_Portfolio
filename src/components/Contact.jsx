@@ -11,7 +11,7 @@ import { slideIn } from "../utils/motion";
 //Z_G9oJtkF2M9MfeyV
 const Contact = () => {
   const formRef = useRef();
-  const [form, setForm] = useState({
+  const [form, setForm] = useState({ 
     name: "",
     email: "",
     message: "",

@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos similique error quasi consequuntur blanditiis enim ullam. Assumenda hic dolor nesciunt ipsa, temporibus harum quasi soluta est! Necessitatibus facilis quia dolores?
+        I am a passionate and dedicated Master's student pursuing Computer Science at George Mason University (GMU). With a solid foundation in computer science, I bring forth a wealth of knowledge and skills acquired during my academic journey. I am adept at translating innovative ideas into robust and efficient code, driven by a commitment to delivering high-quality solutions
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service,index)=>(
