@@ -14,6 +14,7 @@ import {
     mongodb,
     git,
     figma,
+    // chash,
     docker,
     meta,
     tesla,
@@ -32,6 +33,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "resume",
+      title: "Resume"
     },
     {
       id: "contact",
@@ -79,10 +84,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -104,8 +109,8 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "C#",
+      icon: redux,
     },
     {
       name: "docker",
