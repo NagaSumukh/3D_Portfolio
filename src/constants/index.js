@@ -139,9 +139,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Conceptualized and implemented a dynamic and contextual HUD system for an Unreal game, delivering a captivating game-play experience to players.",
-        "Elevated the game’s immersive ambiance through implementation of HUD transitions harmonizing with the art style and game-play aesthetics.",
-        "Collaborated with a team of artists to import high-quality assets and particle effects, ensuring a polished final product.",
+        "Developed Cat Runner game’s backend using Node.js for seamless performance and functionality.",
+        "Designed and implemented RESTful APIs for in-game features, including profiles, scores, and levels",
+        "Innovated immersive Heads-Up Display(HUD), collaborated on asset integration for polished gameplay experience.",
       ],
     },
     // {
