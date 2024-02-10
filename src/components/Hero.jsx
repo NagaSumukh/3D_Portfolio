@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import {motion} from 'framer-motion'
 import {styles} from '../style'
 import { ComputersCanvas } from './canvas'
-
+import Typed from 'typed.js'; 
 
 const Hero = () => {
+  useEffect(() => {
+    var typed = new Typed(".auto-type", {
+      strings: ["Developer","Food Connoisseur","Coder","Technology Explorer","Life-long Learner","Problem Solver"],
+      typeSpeed: 250,
+      backSpeed: 250,
+      loop: true,
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []); 
   return (
     <section className="relative w-full h-screen mx-auto">
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
